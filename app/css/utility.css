@@ -190,4 +190,5 @@
                 
 .sq-r-border-5{border-right: 5px;}
     
-    /* Border Right Only End */
+    /* TEST-BORDER*/
+.sq-b-test{border: 1px solid}
