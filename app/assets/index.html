@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="/app.css">
   <link rel="stylesheet" href="../styles.css">
   <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+   <link rel="stylesheet" href="../css/form.css">
   <script src="/vendor.js"></script>
   <script src="/app.js"></script>
   <script>require('initialize');</script>
@@ -17,7 +18,7 @@
     <hr class="air" />
     <article>
         Square CSS description
-        All the lorem ipsum in the world goes ehre 
+        All the lorem ipsum in the world goes ehre
     </article>
     <hr class="air"/>
 
@@ -202,7 +203,7 @@
         </div>
         <hr class="air" />
         <a href="#top"></a>
-    </section> 
+    </section>
     <!--cards end-->
 
     <!--Align content-->
@@ -277,8 +278,74 @@
     </section>
     <!--Align Items End-->
 
+	<section>
+	<h3 id="forms">Forms / input fields</h3>
+	<p class="air">
+		forms are are for allowing the user to input various forms of information to be passed along by scripts etc.
+		forms are scoped under the class sq-form, and styling can be changed in the form.css.
+	</p>
+	<dl class="sq-dl sq-dl-divider" >
+	<dt>Classes</dt>
+	<dd><strong>.sq-form</strong> - used to limit the scope of the form styling.</dd>
+	<dd><strong>Fieldset</strong> tag used for grouping together elements within the form.</dd>
+	<dd><strong>Legend</strong> tag works as a headline for the elements within the fieldset.</dd>
+	<dd><strong>Form</strong>Root element for forms,insert .sq-form to add form scope.</dd>
+	<dd><strong>Label</strong>Label tag used to label each input field.</dd>
+	<dd><strong>Input</strong>Input fields used to gather user information.</dd>
+	</dl>
+	<p>Example: name and date form elements</p>
+	<div>
+		<form class="sq-form" action="index.html" method="post" type=text>
+			<fieldset>
+				<legend>Personalia</legend>
+				<label>First Name</label>
+				<input type="text" name="" value="" placeholder="First name">
+				<label>Last name</label>
+				<input type="text" name="" value="" placeholder="Last name">
+				<label>Date of birth</label>
+				<input type="date" name="" value="">
+			</fieldset>
+		</form>
+	</div>
 
-
+	<pre class="code1">
+		<code>
+			&ltform class="sq-form" action="index.html" method="post" type=text&gt
+				&ltfieldset>
+					&ltlegend&gtPersonalia&lt/legend&gt
+					&ltlabel&gtFirst Name&lt/label&gt
+					&ltinput type="text" name="" value="" placeholder="First name"&gt
+					&ltlabel&gtLast name&lt/label&gt
+					&ltinput type="text" name="" value="" placeholder="Last name"&gt
+					&ltlabel&gtDate of birth&lt/label&gt
+					&ltinput type="date" name="" value=""&gt
+				&lt/fieldset&gt
+			&lt/form&gt
+		</code>
+	</pre>
+	<p>Example: login form elements</p>
+	<form class="sq-form" action="index.html" method="post">
+		<fieldset>
+			<legend>Login</legend>
+			<input type="email" name="" value="" placeholder="E-mail">
+			<input type="password" name="" value="" placeholder="Password">
+		</fieldset>
+	</form>
+	<pre class="code1">
+		<code>
+			&ltform class="sq-form" action="index.html" method="post"&gt
+				&ltfieldset&gt
+					&ltlegend&gtLogin&lt/legend&gt
+					&ltinput type="email" name="" value="" placeholder="E-mail"&gt
+					&ltinput type="password" name="" value="" placeholder="Password"&gt
+				&lt/fieldset&gt
+			&lt/form&gt
+		</code>
+	</pre>
+	<hr class="air" />
+	<a href="#top"></a>
+	</section>
+<!-- End forms -->
 
     <!-- <section> -->
     <!-- <h3 id="Layouy">Layout</h3> -->
@@ -294,4 +361,5 @@
     <!-- </div> -->
     <!-- <hr class="air" /> -->
     <!-- <a href="#top"></a> -->
-    <!-- </section> --> 
+    <!-- </section> -->
+</body>
