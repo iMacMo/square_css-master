@@ -45,9 +45,9 @@ textarea {
 .sq-form select:focus,
 .sq-form textarea:focus,
 .sq-form input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):focus{
-    -webkit-box-shadow: 0 10px 6px -6px var(--accent-grey);
-	  -moz-box-shadow: 0 10px 6px -6px var(--accent-grey);
-	  box-shadow: 0 10px 6px -6px var(--accent-grey);
+    -webkit-box-shadow: 0 10px 6px -6px var(--grey);
+	  -moz-box-shadow: 0 10px 6px -6px var(--grey);
+	  box-shadow: 0 10px 6px -6px var(--grey);
     outline: 0;
     border: solid .12em var(--primary)
 }
@@ -69,7 +69,7 @@ select {
     -moz-appearance: none;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAYAAAA/33wPAAAAvklEQVQoFY2QMQqEMBBFv7ERa/EMXkGw11K8QbDXzuN4BHv7QO6ifUgj7v4UAdlVM8Uwf+b9YZJISnlqrfEUZVlinucnBGKaJgghbiHOyLyFKIoCbdvecpyReYvo/Ma2bajrGtbaC58kCdZ1RZ7nl/4/4d5EsO/7nzl7IUtodBexMMagaRrs+06JLMvcNWmaOv2W/C/TMAyD58dxROgSmvxFFMdxoOs6lliWBXEcuzokXRbRoJRyvqqqQvye+QDMDz1D6yuj9wAAAABJRU5ErkJggg==) 100% no-repeat;
     line-height: 1;
-    color: var(--accent-grey)
+    color: var(--grey)
 }
 label input[type="radio"],
 label input[type="checkbox"] {
@@ -96,7 +96,7 @@ label input[type="checkbox"] {
      /* 6 */
      background-repeat: no-repeat;
      background-position: 50% 50%;
-     border: 1px solid var(--accent-grey);
+     border: 1px solid var(--grey);
      transition: 0.2s ease-in-out;
      transition-property: background-color, border;
  }
