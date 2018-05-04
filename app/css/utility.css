@@ -137,13 +137,13 @@
 .sq-b-padding-5{padding-bottom: 5em;}
     
     /* Borders start */
-.sq-border-1{border: 1px;}
+.sq-border-1{border: 1px solid;}
     
-.sq-border-3{border: 3px;}
+.sq-border-3{border: 3px solid;}
     
-.sq-border-5{border: 5px;}
+.sq-border-5{border: 5px solid;}
     
-    /* Border styles */                     /* Specifies the border styling */ 
+    /* Border styles */   /*   !  Works only on borders with all four sides ! */ 
 .sq-solid{border-style: solid;}
     
 .sq-dashed{border-style: dashed;}
@@ -159,36 +159,36 @@
 .sq-ridge{border-style: ridge;}
     
         
-    /* Border top only Start */
-.sq-t-border{border-top: 1px;}
+    /* Border top only Start */           /*   !  Solid Only  ! */ 
+.sq-t-border{border-top: 1px solid;}
+            
+.sq-t-border-3{border-top: 3px solid;}
     
-.sq-t-border-3{border-top: 3px;}
-    
-.sq-t-border-5{border-top: 5px;}
+.sq-t-border-5{border-top: 5px solid;}
     
        
-    /* Border bottom only Start */
-.sq-b-border{border-bottom: 1px;}
+    /* Border bottom only Start */          /*   !  Solid Only  ! */
+.sq-b-border{border-bottom: 1px solid;}
     
-.sq-b-border-3{border-bottom: 3px;}
+.sq-b-border-3{border-bottom: 3px solid;}
         
-.sq-b-border-5{border-bottom: 5px;}
+.sq-b-border-5{border-bottom: 5px solid;}
         
         
-    /* Border Left side Only Start */
-.sq-l-border{border-left: 1px;}
+    /* Border Left side Only Start */          /*   !  Solid Only  ! */
+.sq-l-border{border-left: 1px solid;}
     
-.sq-l-border-3{border-left: 3px;}
+.sq-l-border-3{border-left: 3px solid;}
             
-.sq-l-border-5{border-left: 5px;}
+.sq-l-border-5{border-left: 5px solid;}
     
         
-    /* border Right side only Start */
-.sq-r-border{border-right: 1px;}
+    /* border Right side only Start */          /*   !  Solid Only  ! */
+.sq-r-border{border-right: 1px solid;}
     
-.sq-r-border-3{border-right: 3px;}
+.sq-r-border-3{border-right: 3px solid;}
                 
-.sq-r-border-5{border-right: 5px;}
+.sq-r-border-5{border-right: 5px solid;}
     
     /* TEST-BORDER*/
-.sq-b-test{border: 1px solid}
+.sq-b-test{border: 1px solid;}
