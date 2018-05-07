@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="/app.css">
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../css/utility.css">
+  <link rel="stylesheet" href="../css/collapsible.css">
   <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
   <script src="/vendor.js"></script>
   <script src="/app.js"></script>
@@ -34,6 +35,7 @@
         <dd><a href="#grid">g</a></dd>
         <dd><a href="#grid">grid</a></dd>
         <dd><a href="#utility">Utility</a></dd>
+        <dd><a href="#collapsible">Collapsible</a></dd>
     </dl>
 
     <hr/>
@@ -278,7 +280,9 @@
         <a href="#top"></a>
     </section>
     <!--Align Items End-->
+    
     <!-- Utility Classes Start-->
+
 <section>    
     <H3 id="utility">Utility</H3>
     <p>Utility classes can be used to created margin, padding and borders <br>
@@ -302,6 +306,52 @@
         <a href="https://codepen.io/Pauble95/pen/YLxxBq">Interactive Demo</a>
     <a href="#top"></a>
 </section>
+    <!-- Utility End -->
+    <!-- Collapsible Start -->
+<section>
+    <h3 id="collapsible">Collapsible</h3>
+    <p>..You can place different tags and content within a collapsible.<br>
+    <strong>Note that</strong> the dropdown is a JS function 
+    which can be found in "vendor/collapsible.js"</p>
+
+    <dl class="sq-dl sq-dl-divider">
+        
+    <dt>Collapsible class</dt>
+        <button class="sq-collapsible">Collapsible</button>
+        <div class="sq-collapsible-content">
+            <p>Text in "p" tag here</p>
+            <button>"button" tag here</button>
+            <div> Text "div" tag here</div>
+            <span>Text "span" tag here</span>
+        </div>  <br>
+
+        <button Class="sq-collapsible" style="background-color:orangered">
+            Collapsible colored</button>
+        <div class="sq-collapsible-content" style="background-color:orange">
+            <p>This collapsible is colored</p>
+        </div>  <br>
+    
+
+    <div class="air">
+    <pre class="code1">
+        <code>
+        &ltbutton class="sq-collapsible"&gt &lt/button&gt
+            &ltdiv class="sq-collapsible-content"&gt
+                &ltp Text in "p" tag here &gt&ltp
+                &ltbutton&gt"button" here&lt/button&gt
+                &ltdiv&gt Text in "div" tag here&ltdiv&gt
+                &ltspan&gt Text in "span" tag here&ltspan&gt
+            &ltdiv&gt
+        </code>
+    </pre>
+    </div>     
+       
+    </dl>
+    <a href="#top"></a>
+</section>
+    <!-- Collapsible END -->
+<script src="../vendor/collapsible.js"></script>
+
 
     <!-- <section> -->
     <!-- <h3 id="Layouy">Layout</h3> -->
