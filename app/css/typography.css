@@ -54,11 +54,28 @@
 
 /* DropCaps */
 
-p:first-child:first-letter {
-    color: #903; 
+.firstcharacter {
+    color: #903;
+    float: left;
     font-family: Georgia;
-    initial-letter: 2;
-  }
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;} 
+  
+p:first-child:first-letter {
+    color: #903;
+    float: left;
+    font-family: Georgia;
+    font-size: 200%;
+    line-height: 25px;
+    padding-top:0px;
+    padding-right: 0px;
+    padding-left: 3px;
+  } 
+  
+  
 
 /* Text align */
 
